@@ -32,9 +32,9 @@ module.exports = async (args) => {
     console.log(chalk`{green.bold  #####################################}
 {white.bold   ${currentTime}}
 {green.bold  #####################################}
-  Conditions:  {hex('#ffff00') ${conditions}}
-  Wind:        {hex('#ffff00') ${wind}}
-  Temperature: {hex('#ffff00') ${temp}}
+{hex('#888888')  Conditions:}  ${conditions}
+{hex('#888888')  Wind:}        ${wind}
+{hex('#888888')  Temperature:} ${temp}
 `);
     }
   } catch (err) {
