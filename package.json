@@ -1,0 +1,17 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "weather": "bin/weather"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "minimist": "^1.2.5",
+    "moment": "^2.24.0",
+    "ora": "^4.0.3"
+  }
+}
